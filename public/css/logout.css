@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+html {
+    min-height: 100%;
+}
+
+body {
+    height: 100vh;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #F9EA64 0%, #0286fa 80%);
+}
+
+/* login画面 */
+.logindeta {
+    margin-top: 50px;
+    background-color: #ccd8ff;
+    width: 200px;
+    background-color: #4773ff;
+    margin: 0 auto;
+    padding: 30px;
+    /* ←テキストの上→右→下→左の余白を設定 */
+    border: 1px solid #3c4767;
+    border-radius: 16px;
+}
+
+#container-login {
+    width: 300px;
+    /* background-color: #4773ff; */
+    margin: 50px auto;
+    padding: 30px 30px 30px 30px;
+    /* ←テキストの上→右→下→左の余白を設定 */
+    border: 1px solid #3c4767;
+    border-radius: 16px;
+    background-color: rgba(46, 46, 46, 0.3);
+    /* color: rgba(227, 179, 29); */
+    color: aliceblue;
+}
+
+/* 中央寄せ用 間隔あいている */
+.senter {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.top-m20px {
+    margin-top: 20px;
+}
+
+/* add画面使用 */
+
+.senter-a {
+    text-align: center;
+    color: aliceblue;
+    font-size: 19px;
+}
+
+.add-b {
+    padding-left: 10px;
+    padding-top: 15px;
+    background-color: rgba(255, 100, 100, 0.3);
+    color: aliceblue;
+    margin-top: 35px;
+    margin-left: 70px;
+    width: 140px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.font-wei {
+    font-weight: bold;
+}
+
+.add-setumei {
+    margin-top: 50px;
+    margin-left: 14px;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+/* トップヘッダー特有 */
+.senter-hed {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+a {
+    color: aliceblue;
+}
+
+.header-p {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+/* ログイン関係ボタン */
+.login-b {
+    background-color: rgba(230, 60, 60, 1);
+    color: aliceblue;
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-left: 150px;
+    width: 135px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.input {
+    border-radius: 10px;
+    width: 280px;
+    height: 30px;
+    margin-bottom: 15px;
+}
